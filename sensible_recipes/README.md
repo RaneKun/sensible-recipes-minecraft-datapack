@@ -24,7 +24,6 @@ Vanilla Minecraft locks several useful items behind trading, fishing, or dungeon
 | **Chainmail Armor** | Chains + Iron Ingots (full set) |
 | **Horse Armor** | Iron / Gold / Diamond Ingots (shaped recipe) |
 | **Enchanted Golden Apple** | 8 Gold Blocks + 1 Golden Apple |
-| **End Crystal** | Glass + Ghast Tear + Eye of Ender |
 
 ---
 
@@ -41,19 +40,19 @@ Stop crafting one item at a time. These recipes let you produce large quantities
 | Item | Bulk Output |
 |---|---|
 | Bowl | 16 (from logs) |
-| Stick | Increased output |
-| Bucket | Bulk recipe |
-| Candle | Bulk recipe |
-| Chain | Bulk recipe |
-| Chest | Bulk recipe |
-| Cauldron | Bulk recipe |
-| Minecart | Bulk recipe |
-| Shears | Bulk recipe |
-| Iron Door | Bulk recipe |
-| Lightning Rod | Bulk recipe |
-| Melon Slices | Bulk recipe |
-| Honeycomb | Bulk recipe |
-| Clay Ball | Bulk recipe |
+| Stick | 16 (from logs) |
+| Chest | 4 (from logs) |
+| Chain | 9 (from iron ingots and block) |
+| Cauldron | 9 (from iron blocks) |
+| Minecart | 9 (from iron blocks) |
+| Bucket | 9 (from iron blocks) |
+| Shears | 9 (from iron blocks) |
+| Iron Door | 27 (from iron blocks) |
+| Lightning Rod | 9 (from copper blocks) |
+| Candle | 4 (from wool and honeycomb block) |
+| Honeycomb | 4 (from honeycomb balls) |
+| Melon Slices | 9 (from melon) |
+| Clay Ball | 4 (from clay) |
 
 ---
 
@@ -73,8 +72,10 @@ The stonecutter — renamed **Unicutter** when paired with the [companion resour
 
 - **Log → Stripped Log** (no axe needed)
 - **Log → Planks, Slabs, Stairs, Fences, Fence Gates, Doors, Trapdoors, Buttons, Pressure Plates, Signs, Boats**
+- **Planks → Slabs, Stairs, Fences, Fence Gates, Trapdoors, Buttons, Pressure Plates**
+- **Glass → Panes and Bottles**
 - All vanilla wood types supported (Oak, Spruce, Birch, Jungle, Acacia, Dark Oak, Mangrove, Cherry, Bamboo, Crimson, Warped)
-- Stone type conversions with extra output (more efficient than crafting table)
+- All vanilla glass types supported (Glass, Tined Glass, White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, Pink Stained Glass)
 
 This makes the Unicutter a true multi-purpose cutting and crafting station — not just a stone block tool.
 
@@ -109,14 +110,14 @@ This makes the Unicutter a true multi-purpose cutting and crafting station — n
 - Alternative recipes for Black, Brown, and other dyes using different source materials
 
 **Other Notable Recipes:**
-- **Beacon** — Obsidian tag expanded (Crying Obsidian also works)
+- **Beacon** — Obsidian and Glass tag expanded (All glass variants + Crying Obsidian also works)
 - **Cobweb** — Now craftable
 - **Bell** — Now craftable
 - **Totem of Undying** — Now craftable
 - **Sculk Sensor** — Now craftable
-- **Daylight Sensor** — Now craftable
+- **Daylight Sensor** — Glass tag expanded (All glass variants work)
 - **Dispenser** — Alternative recipe added
-- **Ender Chest** — Recipe tweak
+- **Ender Chest** — Obsidian tag expanded(Crying Obsidian also works)
 
 ---
 
@@ -125,6 +126,7 @@ This makes the Unicutter a true multi-purpose cutting and crafting station — n
 | Minecraft Version | Pack Format | Supported |
 |---|---|---|
 | 1.20.1 | 15 | ✅ Yes |
+|(you can use this datapck with modern versions of minecraft as well but some newly added blocks are not supported yet and there may be recipe format changes which have not been tested yet)| x.x |❔|
 
 **Environment:** Works on both client and server. Install server-side for multiplayer — clients do not need it.
 
@@ -144,12 +146,6 @@ This makes the Unicutter a true multi-purpose cutting and crafting station — n
 4. *(Optional)* Install the [Stonecutter to Unicutter](../stonecutter_to_unicutter/) resource pack to rename the Stonecutter block to "Unicutter" in-game.
 
 **For servers:** Place the zip in `<server_root>/world/datapacks/` and run `/reload`.
-
----
-
-## 🖼️ Screenshots / Previews
-
-*Coming soon.*
 
 ---
 
